@@ -1,0 +1,5 @@
+// Root build file (referenced by CI-SETUP.md but missing from the repo).
+plugins {
+    id("com.android.application") version "9.3.1" apply false
+    id("org.jetbrains.kotlin.android") version "2.4.20" apply false
+}
